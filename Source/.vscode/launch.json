@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "YumRunFoodApplication",
+            "request": "launch",
+            "mainClass": "com.yumrun.YumRunFoodApplication",
+            "projectName": "zosh-food"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-yumrunFoodApplication<yumrun-food>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.yumrun.yumrunFoodApplication",
+            "projectName": "yumrun-food",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
